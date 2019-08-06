@@ -22,19 +22,19 @@ td {
 	height: 350px;
 }
 .image_2{
-	width: 350px;
+	width: 450px;
 	height: 330px;
 	position: relative;
-	right: 100px;
+	right: 90px;
 }
 .location_form{
 	border-color: black;
 	border-width: 2px;
 	border-style: solid;
-	width:400px;
+	width:482px;
 	height: 200px; 
 	padding: 10px;
-	font-size: 20px;
+	font-size: 27px;
 	margin: 10px;
 }
 .st{
@@ -44,7 +44,7 @@ td {
 	width:200px;
 	height: 50px; 
 	padding: 10px 35px;
-	font-size: 20px;
+	font-size: 28px;
 	position: relative;
 	left: 10px;
 	display: inline;
@@ -54,11 +54,23 @@ td {
 	border-width: 2px;
 	border-style: solid;
 	height: 50px; 
-	padding: 10px 35px;
-	font-size: 20px;
+	padding: 10px 30px;
+	font-size: 28px;
 	position: relative;
 	left: 30px;
 	display: inline;
 	color: blue;
 }
 
+.join{
+	position: relative;
+	left: 180px;
+	top: 30px;
+	width: 75px;
+	height: 40px;
+	
+}
+
+.join:hover{
+	color: blue; 
+}
