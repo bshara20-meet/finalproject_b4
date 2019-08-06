@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-	return render_template('coupons.html')
+	return render_template('copy.html')
 
 @app.route("/coupons/")
 def coupons():
