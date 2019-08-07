@@ -1,9 +1,9 @@
-
+/*
 .photos{
 	margin: 40px;
 	top: 50px;
 	position: relative;
-  	/*right: 150px;*/
+  	right: 150px;
   	height: 100px;
 
 }
@@ -11,8 +11,8 @@
 	margin: 40px;
 	top: 50px;
 	position: relative;
-  	/*left: 200px;*/
-}
+  	left: 200px;
+}*/
 
 td {
 	padding: 40px 40px;
@@ -20,15 +20,59 @@ td {
 .image_1{
 	width: 600px;
 	height: 350px;
+	
 }
 .image_2{
-	width: 350px;
+	width: 450px;
 	height: 330px;
 	position: relative;
-	right: 380px;
-}		
-.discription{
+	right: 90px;
+	margin-left: 50px;
+}
+.location_form{
 	border-color: black;
-	border-style:solid;
-	border-radius:5px; 
+	border-width: 2px;
+	border-style: solid;
+	width:482px;
+	height: 200px; 
+	padding: 10px;
+	font-size: 27px;
+	margin: 10px;
+}
+.st{
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	width:200px;
+	height: 50px; 
+	padding: 10px 35px;
+	font-size: 28px;
+	position: relative;
+	left: 10px;
+	display: inline;
+}
+.full{
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	height: 50px; 
+	padding: 10px 30px;
+	font-size: 28px;
+	position: relative;
+	left: 30px;
+	display: inline;
+	color: blue;
+}
+
+.join{
+	position: relative;
+	left: 180px;
+	top: 30px;
+	width: 75px;
+	height: 40px;
+	
+}
+
+.join:hover{
+	color: blue; 
 }
